@@ -1,0 +1,106 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "ManagePlayers";
+}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS-->
+    <link href="~/Lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Style sheet-->
+    <link href="~/css/Stylesheet.css" rel="stylesheet" />
+    <title> Manage_Players - Future Hendrix Soccer</title>
+
+</head>
+<body class="align-text-top">
+    <div class="cover-container d-flex w-auto h-auto p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <img src="~/Images/colorball.svg" with="20" height="30" class="cover-heading" />
+                FUTURE HENDRIX SOCCER
+                <p class="a">
+                    <nav class="nav nav-masthead justify-content-center">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-link " asp-action="Index"> HOME</a>
+                            <a class="nav-link " asp-action="Clubs">CLUBS</a>
+                            <a class="nav-link" asp-action="AddClub">ADD CLUB</a>
+                            <a class=" nav-link" asp-action="ClubDetails">CLUB DETAILS</a>
+                            <a class=" nav-link active" asp-action="ManagePlayers">MANAGE PLAYERS</a>
+                        </div>
+                    </nav>
+                </p>
+            </div>
+        </header>
+    </div>
+    <main role="main" class="inner cover">
+        <p class="a">
+            <h1 class="cover-heading">MANAGE PLAYERS </h1>
+        </p>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Club Name</th>
+                    <th scope="col">FirstName</th>
+                    <th scope="col">Last Name </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">SNIPER</th>
+                    <td> Kodak</td>
+                    <td>Black</td>
+                </tr>
+                <tr>
+                    <th scope="row">CRIP</th>
+                    <td>Blue</td>
+                    <td>face</td>
+                </tr>
+                <tr>
+                    <th scope="row">OVO</th>
+                    <td>Drake</td>
+                    <td>Brown</td>
+                </tr>
+                <tr>
+                    <th scope="row">FBG</th>
+                    <td>Future</td>
+                    <td>Whyte</td>
+                </tr>
+                <tr>
+                    <th scope="row">Suwoop</th>
+                    <td>John</td>
+                    <td>Brown</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="lead">
+                    <a href="#" class="btn btn-primary btn-lg btn-block"> ADD PLAYERS</a>
+                </p>
+            </div>
+            <div class="col">
+                <p class="lead">
+                    <a href="#" class="btn btn-primary btn-lg btn-block"> REASSIGIN</a>
+                </p>
+            </div>
+            <div class="col">
+                <p class="lead">
+                    <a href=" #" class="btn btn-primary btn-lg btn-block">DREGISTERING </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2020 Shaundre whyte. All Rights Reserved.</p>
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS-->
+    <link href="~/Lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Style sheet-->
+    <link href="~/css/Stylesheet.css" rel="stylesheet" />
+    <title> Home - Future Hendrix Soccer</title>
+</head>
+<body class="align-text-top">
+    <div class="cover-container d-flex w-auto h-auto p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <img src="~/Images/colorball.svg" with="20" height="30" />
+                FUTURE HENDRIX SOCCER
+                <p class="a">
+                    <nav class="nav nav-masthead justify-content-center">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class=" nav-link active" asp-action="Index"> HOME|</a>
+                            <a class=" nav-link" asp-action="CLUBS">CLUBS</a>
+                            <a class=" nav-link" asp-action="AddClub">ADD CLUB</a>
+                            <a class=" nav-link" asp-action="ClubDetails">CLUB DETAILS</a>
+                            <a class=" nav-link" asp-action="ManagePlayers">MANAGE PLAYERS</a>
+
+                        </div>
+
+                    </nav>
+                </p>
+            </div>
+
+        </header>
+        <main role="main" class="inner cover">
+            <p class="a">
+                <h1 class="cover-heading">
+                WELCOME TO FUTURE HENDRIX
+                     SOCCER HANDERLER
+            </h1>
+                </p>
+            <p class="b">
+                <div class="text-center">
+                <a asp-action="AddClub" class="btn btn-lg btn-secondary" >ADD CLUB</a>
+                </div>
+            </p>
+        </main>
+
+        <div class="footer">
+                <p>© 2020 Shaundre whyte. All Rights Reserved.</p>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Clubs";
+}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS-->
+    <link href="~/Lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Style sheet-->
+    <link href="~/css/Stylesheet.css" rel="stylesheet" />
+    <title> Club - Future Hendrix Soccer</title>
+
+</head>
+<body class="align-text-top">
+    <div class="cover-container d-flex w-auto h-auto p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <img src="~/Images/colorball.svg" with="20" height="30" />
+                FUTURE HENDRIX SOCCER
+                <p class="a">
+                    <nav class="nav nav-masthead justify-content-center">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-link " asp-action="Index"> HOME</a>
+                            <a class="nav-link active" asp-action="Clubs">CLUBS</a>
+                            <a class="nav-link" asp-action="AddClub">ADD CLUB</a>
+                            <a class=" nav-link" asp-action="ClubDetails">CLUB DETAILS</a>
+                            <a class=" nav-link" asp-action="ManagePlayers">MANAGE PLAYERS</a>
+                        </div>
+                    </nav>
+                </p>
+            </div>
+        </header>
+        <main role="main" class="text-center">
+            <p class="a">
+                <h1 class="cover-heading">
+                    Clubs
+                </h1>
+            </p>
+        </main>
+        <div class="row">
+            <div class="col-sm">
+                <div class="align-text-top">
+                    <h3 class="card-title">
+                        YNW Melly
+                    </h3>
+                </div>
+                <img src="~/Images/Barcelona.png"
+                     class="image-fluid image-thumbnail"
+                     atl="Bacelona"
+                     height="150"
+                     width="150" />
+            </div>
+
+            <div class="col-sm">
+                <div class="align-text-top">
+                    <h3 class="card-title">
+                        Kodak
+                    </h3>
+                </div>
+                <img src="~/Images/FC Bayern.png"
+                     class="image-fluid image-thumbnail"
+                     atl="FC Bayern"
+                     height="150"
+                     width="150" />
+            </div>
+
+            <div class="col-sm">
+                <div class="align-text-top">
+                    <h3 class="card-title">
+                        LIL Uzi
+                    </h3>
+                </div>
+
+                <img src="~/Images/juventus.jpg"
+                     class="image-fluid image-thumbnail"
+                     alt="JUVENTUS"
+                     height="150"
+                     width="150" />
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p>© 2020 Shaundre whyte. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

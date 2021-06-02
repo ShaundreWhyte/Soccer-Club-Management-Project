@@ -1,0 +1,146 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "ClubDetails";
+}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS-->
+    <link href="~/Lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--Style sheet-->
+    <link href="~/css/Stylesheet.css" rel="stylesheet" />
+    <title> ClubDetails - Future Hendrix Soccer</title>
+
+</head>
+<body class="align-text-top">
+    <div class="cover-container d-flex w-auto h-auto p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <img src="~/Images/colorball.svg" with="20" height="30" />
+                FUTURE HENDRIX SOCCER
+                <p class="a">
+                    <nav class="nav nav-masthead justify-content-center">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-link " asp-action="Index"> HOME</a>
+                            <a class="nav-link " asp-action="Clubs">CLUBS</a>
+                            <a class="nav-link" asp-action="AddClub">ADD CLUB</a>
+                            <a class=" nav-link active" asp-action="ClubDetails">CLUB DETAILS</a>
+                            <a class=" nav-link" asp-action="ManagePlayers">MANAGE PLAYERS</a>
+                        </div>
+                    </nav>
+                </p>
+            </div>
+        </header>
+        <main role="main" class="align-text-top">
+            <p class="a">
+            <h1 class="cover-heading">Club Details</h1>
+            </p>
+        </main>
+    </div>
+
+    <div class=" soccerColumn">
+        <table class="ClubInfo">
+            <tbody>
+                <tr>
+                    <th> Also known as:</th>
+                    <td>
+                        <img src="~/Images/Barcelona.png" with="20" height="30" />
+                        <strong> YMW MELLY </strong>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Ground:</th>
+                    <td>
+                        <strong class="haveRightBubble">Camp Nou</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Manager:</th>
+                    <td>
+                        <strong class="haveRightBubble"> Quique Setien</strong>
+                        <div class=" rpBubbleHideContent"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Year Formed:
+                    </th>
+                    <td>
+                        <strong>1899</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Chairman:
+                    </th>
+                    <td>
+                        <strong>Sandro Rossell</strong>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <main role="main" class="text-center">
+            <p class="a">
+                <h1>Current Squad</h1>
+            </p>
+        </main>
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First Name </th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Marc-Andre </td>
+                    <td>ter Stegen</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Neto</td>
+                    <td>Thornton</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Ignacio </td>
+                    <td>Pena</td>
+                    <td>26</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Nelsinho</td>
+                    <td>lee</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Clement</td>
+                    <td>Lenglet </td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Jordi</td>
+                    <td>Alba</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="footer">
+            <p>© 2020 Shaundre whyte. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+
